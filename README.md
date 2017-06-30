@@ -34,6 +34,9 @@ In the future:
 [Precompiled binaries](https://github.com/dkulchenko/watchdb/releases) for supported 
 operating systems are available.
 
+### Recommended
+- Required in Ubuntu: `apt install golang go-bindata`
+
 Alternatively, run `go get github.com/dkulchenko/watchdb`. You'll need a working sqlite3 
 binary in $PATH if you go this route. The precompiled binaries embed a copy of sqlite.
 
